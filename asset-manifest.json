@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calorias/static/css/main.d04152f5.css",
+    "main.js": "/calorias/static/js/main.6e8159d8.js",
+    "index.html": "/calorias/index.html",
+    "main.d04152f5.css.map": "/calorias/static/css/main.d04152f5.css.map",
+    "main.6e8159d8.js.map": "/calorias/static/js/main.6e8159d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d04152f5.css",
+    "static/js/main.6e8159d8.js"
+  ]
+}
