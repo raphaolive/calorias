@@ -16,36 +16,6 @@
   top: 45%;
 }
 
-.section-two h1 {
-  font-size: 7rem;
-  margin: 0;
-  font-weight: 300;
-}
-
 .section-two p {
-  font-size: 1.8rem;
   text-align: center;
-}
-
-@media (max-width: 1150px) {
-
-  html{
-    font-size: 58%;
-  }
-
-  .section-one {
-    top: 5%;
-  }
-
-  .section-two {
-    top: 53%;
-  }
-
-  .section-two h1 {
-    font-size: 4.5rem;
-  }
-
-  .section-two p {
-    font-size: 1.5rem;
-  }
 }

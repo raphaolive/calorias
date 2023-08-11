@@ -1,16 +1,9 @@
-
-
-.container{
-    margin: auto;
-    /* background-color: #d2d2d2; */
-    background: linear-gradient(180deg, #e9e5f0, #e9e5f0, #c3ced1, #8c9ba0);
-    height: 200vh;
-    border-radius: 40px;
-    color: rgb(48, 48, 48);
-    padding: 50px;
+.container {
+  margin: auto;
+  /* background: linear-gradient(180deg, #e9e5f0, #e9e5f0, #c3ced1, #8c9ba0); */
+  background: linear-gradient(180deg, #3d4f53, #334549, #28393d, #122429);
+  height: 200vh;
+  color: rgb(48, 48, 48);
+  padding: 50px;
 }
 
-@media (max-width: 1150px) {
-
-
-}

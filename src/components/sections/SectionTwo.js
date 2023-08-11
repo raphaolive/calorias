@@ -1,6 +1,9 @@
 import styles from "./Sections.module.css";
 import DataProvider from "../../context/DataProvider";
 import React, { useContext } from "react";
+import { Button, Typography } from "@mui/material";
+import RestaurantIcon from "@mui/icons-material/Description";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 
 const SectionTwo = () => {
   const { kcal } = useContext(DataProvider);
@@ -19,8 +22,39 @@ const SectionTwo = () => {
   return (
     <div className={styles["section-two"]}>
       {kcal === 0}
-      <h1>{content.h1}</h1>
-      <p>{content.p}</p>
+      <Typography variant="h3" style={{ color: "rgb(178, 178, 178)" }}>
+        {content.h1}
+      </Typography>
+      <Typography variant="p" style={{ color: "rgb(178, 178, 178)" }}>
+        {content.p}
+      </Typography>
+      <div>
+        <Button
+          // disabled={kcal === 0}
+          variant="contained"
+          size="large"
+          style={{
+            margin: "30px 10px",
+          }}
+          endIcon={<RestaurantIcon />}
+        >
+          Baixar Dieta
+        </Button>
+        <Button
+          // disabled={kcal === 0}
+          variant="contained"
+          size="large"
+          color="success"
+          style={{
+            margin: "30px 10px",
+            // backgroundColor: "#478C5C",
+          }}
+          endIcon={<FitnessCenterIcon />}
+        >
+          Baixar Treino
+        </Button>
+      </div>
+      <div></div>
     </div>
   );
 };
