@@ -15,12 +15,18 @@ function App() {
 
   return (
     <div className="App">
-      <DataProvider.Provider value={{ kcal, setKcal, scrollDown }}>
+      <DataProvider.Provider
+        value={{
+          kcal,
+          setKcal,
+          scrollDown,
+        }}
+      >
         <MainContainer>
           <SectionOne />
           <SectionTwo />
         </MainContainer>
-          <div ref={bottomPage} />
+        <div ref={bottomPage} />
       </DataProvider.Provider>
     </div>
   );

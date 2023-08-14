@@ -1,9 +1,11 @@
 import * as yup from "yup";
 
 const schema = yup.object({
-    peso: yup.number("Digite seu peso").positive().required(),
-    altura:  yup.number().positive().required("Digite sua altura"),
-    idade: yup.number().positive().required("Digite sua idade"),
-})
+  weight: yup.number().positive().required("Digite seu peso"),
+  height: yup.number().positive().required("Digite sua altura"),
+  age: yup.number().positive().required("Digite sua idade"),
+  gender: yup.string().required(),
+  activity: yup.string().required(),
+});
 
-export default schema
+export default schema;
